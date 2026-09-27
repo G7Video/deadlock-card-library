@@ -1,9 +1,13 @@
 # Deadlock Card Studio Library
 
-Unofficial automatic normal-mode wiki card publisher. Enhanced variants and Street Brawl-only items are excluded.
+Verified normal-mode wiki item cards for Deadlock Card Studio. Enhanced and Street Brawl-only variants are excluded.
 
-Enable GitHub Pages with Actions as its source. Run the Refresh verified Deadlock cards workflow once. It subsequently runs daily on a standard Windows runner. Node and Edge run on the publishing worker, never from the Premiere plugin.
+## Current status
 
-Only verified complete libraries are published; old content-addressed images remain available. The publisher stops at 350 MiB of image storage. Periodic maintenance may be needed if the wiki changes.
+The initial 156-card baseline is being deployed. Cloud refresh is configured daily, but the first live refresh is blocked by the wiki’s Cloudflare verification on GitHub-hosted runners. Do not treat the baseline as a fresh automated wiki refresh. Failed refreshes never replace released media.
 
-Wiki text: Deadlock Wiki contributors, CC BY-NC-SA 4.0 (https://deadlock.wiki/). Game artwork belongs to its respective owners. Unofficial; not affiliated with Valve or Adobe.
+The manual baseline workflow verifies every image before deployment. The daily publisher discovers new items, renders their default wiki tables, verifies output, and preserves old SHA-256 image paths. It requires permitted unattended wiki access before it can run successfully. No challenge bypass is implemented.
+
+The Premiere plugin includes its own baseline and downloads verified updates directly; plugin users need no helper, Node, Python, separate card pack, or GitHub account. Animation remains editable in Premiere.
+
+Wiki text: Deadlock Wiki contributors, CC BY-NC-SA 4.0 (https://deadlock.wiki/). Game artwork belongs to its respective owners. Code license does not grant rights to wiki or game assets. Unofficial; not affiliated with Valve or Adobe.
