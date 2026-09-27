@@ -1,0 +1,60 @@
+name: Deploy verified baseline
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: card-library-publication
+  cancel-in-progress: false
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: https://g7video.github.io/deadlock-card-library/
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: npm ci
+      - name: Restore baseline only when no published library exists
+        run: |
+          python - <<'PY'
+          import pathlib, zipfile
+          if not pathlib.Path('site/manifest.json').exists():
+              archives = sorted(pathlib.Path('.').glob('baseline-*.zip'))
+              assert len(archives) == 4, 'All four baseline archives are required'
+              for archive in archives:
+                  with zipfile.ZipFile(archive) as z:
+                      for name in z.namelist():
+                          assert not pathlib.PurePosixPath(name).is_absolute() and '..' not in pathlib.PurePosixPath(name).parts
+                      z.extractall('site')
+          PY
+      - name: Verify every card before publication
+        run: |
+          node - <<'JS'
+          const fs=require('node:fs');
+          const {validateCatalog,verifyImage}=require('./library-update');
+          const manifest=validateCatalog(JSON.parse(fs.readFileSync('site/manifest.json','utf8')));
+          for(const item of manifest.items)verifyImage(fs.readFileSync('site/assets/'+item.asset),item);
+          console.log('Verified '+manifest.items.length+' cards; revision '+manifest.revision);
+          JS
+      - name: Preserve released baseline for future updates
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- site
+          if ! git diff --cached --quiet; then
+            git commit -m 'Preserve verified baseline library'
+            git push
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+          retention-days: 1
+      - uses: actions/deploy-pages@v4
+        id: deployment
