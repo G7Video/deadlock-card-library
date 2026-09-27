@@ -1,0 +1,48 @@
+name: Refresh verified Deadlock cards
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 8 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: card-library-publication
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: windows-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: npm ci
+      - run: node publish-library.cjs --out site
+      - name: Preserve verified cards
+        shell: pwsh
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- site
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 1) {
+            git commit -m 'Refresh verified item-card library'
+            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+            git push
+            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }
+          exit 0
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+          retention-days: 1
+  deploy:
+    needs: render
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4
