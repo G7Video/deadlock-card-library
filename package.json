@@ -1,0 +1,22 @@
+{
+  "name": "ballistik-item-cards",
+  "version": "0.4.25",
+  "private": true,
+  "description": "Premiere UXP panel for replay-driven Deadlock item cards",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node --test test/*.test.cjs",
+    "build:helper": "node scripts/build-helper.cjs"
+  },
+  "dependencies": {
+    "@noble/hashes": "1.8.0",
+    "buffer": "6.0.3",
+    "fast-png": "8.0.0",
+    "fzstd": "0.1.1",
+    "seek-bzip": "2.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "postject": "^1.0.0-alpha.6"
+  }
+}

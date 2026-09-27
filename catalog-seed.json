@@ -1,0 +1,782 @@
+[
+  {
+    "itemId": 1342610602,
+    "name": "Close Quarters",
+    "source": "https://deadlock.wiki/Close_Quarters"
+  },
+  {
+    "itemId": 1548066885,
+    "name": "Extended Magazine",
+    "source": "https://deadlock.wiki/Extended_Magazine"
+  },
+  {
+    "itemId": 2010028405,
+    "name": "Headshot Booster",
+    "source": "https://deadlock.wiki/Headshot_Booster"
+  },
+  {
+    "itemId": 3077079169,
+    "name": "High-Velocity Rounds",
+    "source": "https://deadlock.wiki/High-Velocity_Rounds"
+  },
+  {
+    "itemId": 1009965641,
+    "name": "Monster Rounds",
+    "source": "https://deadlock.wiki/Monster_Rounds"
+  },
+  {
+    "itemId": 668299740,
+    "name": "Rapid Rounds",
+    "source": "https://deadlock.wiki/Rapid_Rounds"
+  },
+  {
+    "itemId": 3862866912,
+    "name": "Restorative Shot",
+    "source": "https://deadlock.wiki/Restorative_Shot"
+  },
+  {
+    "itemId": 381961617,
+    "name": "Active Reload",
+    "source": "https://deadlock.wiki/Active_Reload"
+  },
+  {
+    "itemId": 3403085434,
+    "name": "Fleetfoot",
+    "source": "https://deadlock.wiki/Fleetfoot"
+  },
+  {
+    "itemId": 2407033488,
+    "name": "Intensifying Magazine",
+    "source": "https://deadlock.wiki/Intensifying_Magazine"
+  },
+  {
+    "itemId": 3977876567,
+    "name": "Kinetic Dash",
+    "source": "https://deadlock.wiki/Kinetic_Dash"
+  },
+  {
+    "itemId": 3331811235,
+    "name": "Long Range",
+    "source": "https://deadlock.wiki/Long_Range"
+  },
+  {
+    "itemId": 26002154,
+    "name": "Melee Charge",
+    "source": "https://deadlock.wiki/Melee_Charge"
+  },
+  {
+    "itemId": 395867183,
+    "name": "Mystic Shot",
+    "source": "https://deadlock.wiki/Mystic_Shot"
+  },
+  {
+    "itemId": 2064029594,
+    "name": "Opening Rounds",
+    "source": "https://deadlock.wiki/Opening_Rounds"
+  },
+  {
+    "itemId": 1763073141,
+    "name": "Recharging Rush",
+    "source": "https://deadlock.wiki/Recharging_Rush"
+  },
+  {
+    "itemId": 393974127,
+    "name": "Slowing Bullets",
+    "source": "https://deadlock.wiki/Slowing_Bullets"
+  },
+  {
+    "itemId": 1144549437,
+    "name": "Spirit Shredder Bullets",
+    "source": "https://deadlock.wiki/Spirit_Shredder_Bullets"
+  },
+  {
+    "itemId": 3647584222,
+    "name": "Split Shot",
+    "source": "https://deadlock.wiki/Split_Shot"
+  },
+  {
+    "itemId": 98582110,
+    "name": "Stalker",
+    "source": "https://deadlock.wiki/Stalker"
+  },
+  {
+    "itemId": 4104549924,
+    "name": "Swift Striker",
+    "source": "https://deadlock.wiki/Swift_Striker"
+  },
+  {
+    "itemId": 2356412290,
+    "name": "Titanic Magazine",
+    "source": "https://deadlock.wiki/Titanic_Magazine"
+  },
+  {
+    "itemId": 1770441818,
+    "name": "Weakening Headshot",
+    "source": "https://deadlock.wiki/Weakening_Headshot"
+  },
+  {
+    "itemId": 1932939246,
+    "name": "Alchemical Fire",
+    "source": "https://deadlock.wiki/Alchemical_Fire"
+  },
+  {
+    "itemId": 3294954488,
+    "name": "Ballistic Enchantment",
+    "source": "https://deadlock.wiki/Ballistic_Enchantment"
+  },
+  {
+    "itemId": 1414319208,
+    "name": "Berserker",
+    "source": "https://deadlock.wiki/Berserker"
+  },
+  {
+    "itemId": 989206714,
+    "name": "Blood Tribute",
+    "source": "https://deadlock.wiki/Blood_Tribute"
+  },
+  {
+    "itemId": 2739107182,
+    "name": "Burst Fire",
+    "source": "https://deadlock.wiki/Burst_Fire"
+  },
+  {
+    "itemId": 709540378,
+    "name": "Cultist Sacrifice",
+    "source": "https://deadlock.wiki/Cultist_Sacrifice"
+  },
+  {
+    "itemId": 2463960640,
+    "name": "Escalating Resilience",
+    "source": "https://deadlock.wiki/Escalating_Resilience"
+  },
+  {
+    "itemId": 690458959,
+    "name": "Express Shot",
+    "source": "https://deadlock.wiki/Express_Shot"
+  },
+  {
+    "itemId": 4053935515,
+    "name": "Headhunter",
+    "source": "https://deadlock.wiki/Headhunter"
+  },
+  {
+    "itemId": 2108215830,
+    "name": "Heroic Aura",
+    "source": "https://deadlock.wiki/Heroic_Aura"
+  },
+  {
+    "itemId": 2678489038,
+    "name": "Hollow Point",
+    "source": "https://deadlock.wiki/Hollow_Point"
+  },
+  {
+    "itemId": 2481177645,
+    "name": "Hunter's Aura",
+    "source": "https://deadlock.wiki/Hunter%27s_Aura"
+  },
+  {
+    "itemId": 2095565695,
+    "name": "Point Blank",
+    "source": "https://deadlock.wiki/Point_Blank"
+  },
+  {
+    "itemId": 1798666702,
+    "name": "Shadow Weave",
+    "source": "https://deadlock.wiki/Shadow_Weave"
+  },
+  {
+    "itemId": 2152872419,
+    "name": "Sharpshooter",
+    "source": "https://deadlock.wiki/Sharpshooter"
+  },
+  {
+    "itemId": 4075861416,
+    "name": "Spirit Rend",
+    "source": "https://deadlock.wiki/Spirit_Rend"
+  },
+  {
+    "itemId": 811521119,
+    "name": "Tesla Bullets",
+    "source": "https://deadlock.wiki/Tesla_Bullets"
+  },
+  {
+    "itemId": 3696726732,
+    "name": "Toxic Bullets",
+    "source": "https://deadlock.wiki/Toxic_Bullets"
+  },
+  {
+    "itemId": 3791587546,
+    "name": "Weighted Shots",
+    "source": "https://deadlock.wiki/Weighted_Shots"
+  },
+  {
+    "itemId": 673001892,
+    "name": "Armor Piercing Rounds",
+    "source": "https://deadlock.wiki/Armor_Piercing_Rounds"
+  },
+  {
+    "itemId": 710436191,
+    "name": "Capacitor",
+    "source": "https://deadlock.wiki/Capacitor"
+  },
+  {
+    "itemId": 3884003354,
+    "name": "Crippling Headshot",
+    "source": "https://deadlock.wiki/Crippling_Headshot"
+  },
+  {
+    "itemId": 800008313,
+    "name": "Crushing Fists",
+    "source": "https://deadlock.wiki/Crushing_Fists"
+  },
+  {
+    "itemId": 339443430,
+    "name": "Frenzy",
+    "source": "https://deadlock.wiki/Frenzy"
+  },
+  {
+    "itemId": 365620721,
+    "name": "Glass Cannon",
+    "source": "https://deadlock.wiki/Glass_Cannon"
+  },
+  {
+    "itemId": 1396247347,
+    "name": "Lucky Shot",
+    "source": "https://deadlock.wiki/Lucky_Shot"
+  },
+  {
+    "itemId": 2480592370,
+    "name": "Ricochet",
+    "source": "https://deadlock.wiki/Ricochet"
+  },
+  {
+    "itemId": 1113837674,
+    "name": "Silencer",
+    "source": "https://deadlock.wiki/Silencer"
+  },
+  {
+    "itemId": 2221211450,
+    "name": "Spellslinger",
+    "source": "https://deadlock.wiki/Spellslinger"
+  },
+  {
+    "itemId": 2226497419,
+    "name": "Spiritual Overflow",
+    "source": "https://deadlock.wiki/Spiritual_Overflow"
+  },
+  {
+    "itemId": 3633614685,
+    "name": "Extra Health",
+    "source": "https://deadlock.wiki/Extra_Health"
+  },
+  {
+    "itemId": 2829638276,
+    "name": "Extra Regen",
+    "source": "https://deadlock.wiki/Extra_Regen"
+  },
+  {
+    "itemId": 4139877411,
+    "name": "Extra Stamina",
+    "source": "https://deadlock.wiki/Extra_Stamina"
+  },
+  {
+    "itemId": 1672893796,
+    "name": "Grit",
+    "source": "https://deadlock.wiki/Grit"
+  },
+  {
+    "itemId": 1710079648,
+    "name": "Healing Rite",
+    "source": "https://deadlock.wiki/Healing_Rite"
+  },
+  {
+    "itemId": 1437614329,
+    "name": "Melee Lifesteal",
+    "source": "https://deadlock.wiki/Melee_Lifesteal"
+  },
+  {
+    "itemId": 4204808176,
+    "name": "Rebuttal",
+    "source": "https://deadlock.wiki/Rebuttal"
+  },
+  {
+    "itemId": 3399065363,
+    "name": "Sprint Boots",
+    "source": "https://deadlock.wiki/Sprint_Boots"
+  },
+  {
+    "itemId": 1235347618,
+    "name": "Battle Vest",
+    "source": "https://deadlock.wiki/Battle_Vest"
+  },
+  {
+    "itemId": 499683006,
+    "name": "Bullet Lifesteal",
+    "source": "https://deadlock.wiki/Bullet_Lifesteal_(item)"
+  },
+  {
+    "itemId": 1047818222,
+    "name": "Debuff Reducer",
+    "source": "https://deadlock.wiki/Debuff_Reducer"
+  },
+  {
+    "itemId": 3970837787,
+    "name": "Enchanter's Emblem",
+    "source": "https://deadlock.wiki/Enchanter%27s_Emblem"
+  },
+  {
+    "itemId": 2447176615,
+    "name": "Enduring Speed",
+    "source": "https://deadlock.wiki/Enduring_Speed"
+  },
+  {
+    "itemId": 857669956,
+    "name": "Guardian Ward",
+    "source": "https://deadlock.wiki/Guardian_Ward"
+  },
+  {
+    "itemId": 2603935618,
+    "name": "Healbane",
+    "source": "https://deadlock.wiki/Healbane"
+  },
+  {
+    "itemId": 2566692615,
+    "name": "Healing Booster",
+    "source": "https://deadlock.wiki/Healing_Booster"
+  },
+  {
+    "itemId": 1644605047,
+    "name": "Reactive Barrier",
+    "source": "https://deadlock.wiki/Reactive_Barrier"
+  },
+  {
+    "itemId": 2059712766,
+    "name": "Restorative Locket",
+    "source": "https://deadlock.wiki/Restorative_Locket"
+  },
+  {
+    "itemId": 3361075077,
+    "name": "Return Fire",
+    "source": "https://deadlock.wiki/Return_Fire"
+  },
+  {
+    "itemId": 876563814,
+    "name": "Spirit Lifesteal",
+    "source": "https://deadlock.wiki/Spirit_Lifesteal_(item)"
+  },
+  {
+    "itemId": 112198670,
+    "name": "Spirit Shielding",
+    "source": "https://deadlock.wiki/Spirit_Shielding"
+  },
+  {
+    "itemId": 3074274290,
+    "name": "Trophy Collector",
+    "source": "https://deadlock.wiki/Trophy_Collector"
+  },
+  {
+    "itemId": 805079544,
+    "name": "Weapon Shielding",
+    "source": "https://deadlock.wiki/Weapon_Shielding"
+  },
+  {
+    "itemId": 3140772621,
+    "name": "Bullet Resilience",
+    "source": "https://deadlock.wiki/Bullet_Resilience"
+  },
+  {
+    "itemId": 1414025773,
+    "name": "Counterspell",
+    "source": "https://deadlock.wiki/Counterspell"
+  },
+  {
+    "itemId": 3731635960,
+    "name": "Dispel Magic",
+    "source": "https://deadlock.wiki/Dispel_Magic"
+  },
+  {
+    "itemId": 3585132399,
+    "name": "Fortitude",
+    "source": "https://deadlock.wiki/Fortitude"
+  },
+  {
+    "itemId": 1409190604,
+    "name": "Fury Trance",
+    "source": "https://deadlock.wiki/Fury_Trance"
+  },
+  {
+    "itemId": 2956256701,
+    "name": "Healing Nova",
+    "source": "https://deadlock.wiki/Healing_Nova"
+  },
+  {
+    "itemId": 1252627263,
+    "name": "Lifestrike",
+    "source": "https://deadlock.wiki/Lifestrike"
+  },
+  {
+    "itemId": 600033864,
+    "name": "Majestic Leap",
+    "source": "https://deadlock.wiki/Majestic_Leap"
+  },
+  {
+    "itemId": 1378931225,
+    "name": "Metal Skin",
+    "source": "https://deadlock.wiki/Metal_Skin"
+  },
+  {
+    "itemId": 1804594021,
+    "name": "Rescue Beam",
+    "source": "https://deadlock.wiki/Rescue_Beam"
+  },
+  {
+    "itemId": 2163598980,
+    "name": "Spirit Resilience",
+    "source": "https://deadlock.wiki/Spirit_Resilience"
+  },
+  {
+    "itemId": 334300056,
+    "name": "Stamina Mastery",
+    "source": "https://deadlock.wiki/Stamina_Mastery"
+  },
+  {
+    "itemId": 865958998,
+    "name": "Veil Walker",
+    "source": "https://deadlock.wiki/Veil_Walker"
+  },
+  {
+    "itemId": 3270001687,
+    "name": "Warp Stone",
+    "source": "https://deadlock.wiki/Warp_Stone"
+  },
+  {
+    "itemId": 3361811174,
+    "name": "Cheat Death",
+    "source": "https://deadlock.wiki/Cheat_Death"
+  },
+  {
+    "itemId": 2407781327,
+    "name": "Colossus",
+    "source": "https://deadlock.wiki/Colossus"
+  },
+  {
+    "itemId": 1662311306,
+    "name": "Divine Barrier",
+    "source": "https://deadlock.wiki/Divine_Barrier"
+  },
+  {
+    "itemId": 2820116164,
+    "name": "Diviner's Kevlar",
+    "source": "https://deadlock.wiki/Diviner%27s_Kevlar"
+  },
+  {
+    "itemId": 1427630806,
+    "name": "Healing Tempo",
+    "source": "https://deadlock.wiki/Healing_Tempo"
+  },
+  {
+    "itemId": 951866250,
+    "name": "Indomitable",
+    "source": "https://deadlock.wiki/Indomitable"
+  },
+  {
+    "itemId": 1797283378,
+    "name": "Infuser",
+    "source": "https://deadlock.wiki/Infuser"
+  },
+  {
+    "itemId": 2037039379,
+    "name": "Inhibitor",
+    "source": "https://deadlock.wiki/Inhibitor"
+  },
+  {
+    "itemId": 1250307611,
+    "name": "Juggernaut",
+    "source": "https://deadlock.wiki/Juggernaut"
+  },
+  {
+    "itemId": 865846625,
+    "name": "Leech",
+    "source": "https://deadlock.wiki/Leech"
+  },
+  {
+    "itemId": 1371725689,
+    "name": "Phantom Strike",
+    "source": "https://deadlock.wiki/Phantom_Strike"
+  },
+  {
+    "itemId": 3491236900,
+    "name": "Plated Armor",
+    "source": "https://deadlock.wiki/Plated_Armor"
+  },
+  {
+    "itemId": 1282141666,
+    "name": "Siphon Bullets",
+    "source": "https://deadlock.wiki/Siphon_Bullets"
+  },
+  {
+    "itemId": 1955841979,
+    "name": "Spellbreaker",
+    "source": "https://deadlock.wiki/Spellbreaker"
+  },
+  {
+    "itemId": 3357231760,
+    "name": "Unstoppable",
+    "source": "https://deadlock.wiki/Unstoppable"
+  },
+  {
+    "itemId": 1055679805,
+    "name": "Vampiric Burst",
+    "source": "https://deadlock.wiki/Vampiric_Burst"
+  },
+  {
+    "itemId": 3028234315,
+    "name": "Witchmail",
+    "source": "https://deadlock.wiki/Witchmail"
+  },
+  {
+    "itemId": 3776945997,
+    "name": "Extra Charge",
+    "source": "https://deadlock.wiki/Extra_Charge"
+  },
+  {
+    "itemId": 968099481,
+    "name": "Extra Spirit",
+    "source": "https://deadlock.wiki/Extra_Spirit"
+  },
+  {
+    "itemId": 2462046703,
+    "name": "Golden Goose Egg",
+    "source": "https://deadlock.wiki/Golden_Goose_Egg"
+  },
+  {
+    "itemId": 1998374645,
+    "name": "Mystic Burst",
+    "source": "https://deadlock.wiki/Mystic_Burst"
+  },
+  {
+    "itemId": 754480263,
+    "name": "Mystic Expansion",
+    "source": "https://deadlock.wiki/Mystic_Expansion"
+  },
+  {
+    "itemId": 1439347412,
+    "name": "Mystic Regeneration",
+    "source": "https://deadlock.wiki/Mystic_Regeneration"
+  },
+  {
+    "itemId": 2922054143,
+    "name": "Rusted Barrel",
+    "source": "https://deadlock.wiki/Rusted_Barrel"
+  },
+  {
+    "itemId": 465043967,
+    "name": "Spirit Strike",
+    "source": "https://deadlock.wiki/Spirit_Strike"
+  },
+  {
+    "itemId": 1150006784,
+    "name": "Arcane Surge",
+    "source": "https://deadlock.wiki/Arcane_Surge"
+  },
+  {
+    "itemId": 2971868509,
+    "name": "Bullet Resist Shredder",
+    "source": "https://deadlock.wiki/Bullet_Resist_Shredder"
+  },
+  {
+    "itemId": 1976391348,
+    "name": "Cold Front",
+    "source": "https://deadlock.wiki/Cold_Front"
+  },
+  {
+    "itemId": 380806748,
+    "name": "Compress Cooldown",
+    "source": "https://deadlock.wiki/Compress_Cooldown"
+  },
+  {
+    "itemId": 2951612397,
+    "name": "Duration Extender",
+    "source": "https://deadlock.wiki/Duration_Extender"
+  },
+  {
+    "itemId": 7409189,
+    "name": "Improved Spirit",
+    "source": "https://deadlock.wiki/Improved_Spirit"
+  },
+  {
+    "itemId": 1102081447,
+    "name": "Mystic Slow",
+    "source": "https://deadlock.wiki/Mystic_Slow"
+  },
+  {
+    "itemId": 2081037738,
+    "name": "Mystic Vulnerability",
+    "source": "https://deadlock.wiki/Mystic_Vulnerability"
+  },
+  {
+    "itemId": 84321454,
+    "name": "Quicksilver Reload",
+    "source": "https://deadlock.wiki/Quicksilver_Reload"
+  },
+  {
+    "itemId": 1813726886,
+    "name": "Slowing Hex",
+    "source": "https://deadlock.wiki/Slowing_Hex"
+  },
+  {
+    "itemId": 1219329868,
+    "name": "Spirit Sap",
+    "source": "https://deadlock.wiki/Spirit_Sap"
+  },
+  {
+    "itemId": 1925087134,
+    "name": "Suppressor",
+    "source": "https://deadlock.wiki/Suppressor"
+  },
+  {
+    "itemId": 3144988365,
+    "name": "Decay",
+    "source": "https://deadlock.wiki/Decay"
+  },
+  {
+    "itemId": 2061878743,
+    "name": "Disarming Hex",
+    "source": "https://deadlock.wiki/Disarming_Hex"
+  },
+  {
+    "itemId": 1193964439,
+    "name": "Greater Expansion",
+    "source": "https://deadlock.wiki/Greater_Expansion"
+  },
+  {
+    "itemId": 1254091416,
+    "name": "Knockdown",
+    "source": "https://deadlock.wiki/Knockdown"
+  },
+  {
+    "itemId": 2947183272,
+    "name": "Radiant Regeneration",
+    "source": "https://deadlock.wiki/Radiant_Regeneration"
+  },
+  {
+    "itemId": 787198704,
+    "name": "Rapid Recharge",
+    "source": "https://deadlock.wiki/Rapid_Recharge"
+  },
+  {
+    "itemId": 619484391,
+    "name": "Silence Wave",
+    "source": "https://deadlock.wiki/Silence_Wave"
+  },
+  {
+    "itemId": 3190916303,
+    "name": "Spirit Snatch",
+    "source": "https://deadlock.wiki/Spirit_Snatch"
+  },
+  {
+    "itemId": 3261353684,
+    "name": "Superior Cooldown",
+    "source": "https://deadlock.wiki/Superior_Cooldown"
+  },
+  {
+    "itemId": 2717651715,
+    "name": "Superior Duration",
+    "source": "https://deadlock.wiki/Superior_Duration"
+  },
+  {
+    "itemId": 1292979587,
+    "name": "Surge of Power",
+    "source": "https://deadlock.wiki/Surge_of_Power"
+  },
+  {
+    "itemId": 2121044373,
+    "name": "Tankbuster",
+    "source": "https://deadlock.wiki/Tankbuster"
+  },
+  {
+    "itemId": 395944548,
+    "name": "Torment Pulse",
+    "source": "https://deadlock.wiki/Torment_Pulse"
+  },
+  {
+    "itemId": 3812615317,
+    "name": "Arctic Blast",
+    "source": "https://deadlock.wiki/Arctic_Blast"
+  },
+  {
+    "itemId": 2519598785,
+    "name": "Boundless Spirit",
+    "source": "https://deadlock.wiki/Boundless_Spirit"
+  },
+  {
+    "itemId": 2617435668,
+    "name": "Cursed Relic",
+    "source": "https://deadlock.wiki/Cursed_Relic"
+  },
+  {
+    "itemId": 630839635,
+    "name": "Echo Shard",
+    "source": "https://deadlock.wiki/Echo_Shard"
+  },
+  {
+    "itemId": 3005970438,
+    "name": "Escalating Exposure",
+    "source": "https://deadlock.wiki/Escalating_Exposure"
+  },
+  {
+    "itemId": 2533252781,
+    "name": "Ethereal Shift",
+    "source": "https://deadlock.wiki/Ethereal_Shift"
+  },
+  {
+    "itemId": 2142980412,
+    "name": "Focus Lens",
+    "source": "https://deadlock.wiki/Focus_Lens"
+  },
+  {
+    "itemId": 493591231,
+    "name": "Lightning Scroll",
+    "source": "https://deadlock.wiki/Lightning_Scroll"
+  },
+  {
+    "itemId": 2800629741,
+    "name": "Magic Carpet",
+    "source": "https://deadlock.wiki/Magic_Carpet"
+  },
+  {
+    "itemId": 3919289022,
+    "name": "Mercurial Magnum",
+    "source": "https://deadlock.wiki/Mercurial_Magnum"
+  },
+  {
+    "itemId": 3577481646,
+    "name": "Mystic Reverb",
+    "source": "https://deadlock.wiki/Mystic_Reverb"
+  },
+  {
+    "itemId": 677738769,
+    "name": "Refresher",
+    "source": "https://deadlock.wiki/Refresher"
+  },
+  {
+    "itemId": 2417568017,
+    "name": "Scourge",
+    "source": "https://deadlock.wiki/Scourge"
+  },
+  {
+    "itemId": 343572757,
+    "name": "Spirit Burn",
+    "source": "https://deadlock.wiki/Spirit_Burn"
+  },
+  {
+    "itemId": 915014646,
+    "name": "Transcendent Cooldown",
+    "source": "https://deadlock.wiki/Transcendent_Cooldown"
+  },
+  {
+    "itemId": 1152158042,
+    "name": "Vortex Web",
+    "source": "https://deadlock.wiki/Vortex_Web"
+  }
+]
